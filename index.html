@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game card</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Game card</h1>
+
+      <div class="row">
+        <!-- Card A -->
+        <div class="col-md-3 card" id="cardA">
+          <h3>Card A</h3>
+          <p>Lượt bóc: <span id="demA">0</span></p>
+          <p>Tỉ lệ: <span id="tyleA">0%</span></p>
+          <p>Số lá còn lại: <span id="conlaiA">31</span></p>
+
+          <button class="btn btn-primary" onclick="bocBai('A')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButtonA" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('A')">
+              Reset lá bài A
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 card" id="card2">
+          <h3>Card 2</h3>
+          <p>Lượt bóc: <span id="dem2">0</span></p>
+          <p>Tỉ lệ: <span id="tyle2">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai2">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('2')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton2" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('2')">
+              Reset lá bài 2
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 card" id="card3">
+          <h3>Card 3</h3>
+          <p>Lượt bóc: <span id="dem3">0</span></p>
+          <p>Tỉ lệ: <span id="tyle3">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai3">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('3')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton3" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('3')">
+              Reset lá bài 3
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-3 card" id="card4">
+          <h3>Card 4</h3>
+          <p>Lượt bóc: <span id="dem4">0</span></p>
+          <p>Tỉ lệ: <span id="tyle4">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai4">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('4')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton4" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('4')">
+              Reset lá bài 4
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-3 card" id="card5">
+          <h3>Card 5</h3>
+          <p>Lượt bóc: <span id="dem5">0</span></p>
+          <p>Tỉ lệ: <span id="tyle5">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai5">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('5')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton5" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('5')">
+              Reset lá bài 5
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-3 card" id="card6">
+          <h3>Card 6</h3>
+          <p>Lượt bóc: <span id="dem6">0</span></p>
+          <p>Tỉ lệ: <span id="tyle6">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai6">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('6')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton6" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('6')">
+              Reset lá bài 6
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-md-3 card" id="card7">
+          <h3>Card 7</h3>
+          <p>Lượt bóc: <span id="dem7">0</span></p>
+          <p>Tỉ lệ: <span id="tyle7">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai7">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('7')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton7" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('7')">
+              Reset lá bài 7
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-md-3 card" id="card8">
+          <h3>Card 8</h3>
+          <p>Lượt bóc: <span id="dem8">0</span></p>
+          <p>Tỉ lệ: <span id="tyle8">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai8">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('8')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton8" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('8')">
+              Reset lá bài 8
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-md-3 card" id="card9">
+          <h3>Card 9</h3>
+          <p>Lượt bóc: <span id="dem9">0</span></p>
+          <p>Tỉ lệ: <span id="tyle9">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai9">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('9')">Bóc Bài</button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton9" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('9')">
+              Reset lá bài 9
+            </button>
+          </span>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="col-md-3 card" id="card10">
+          <h3>Card 10</h3>
+          <p>Lượt bóc: <span id="dem10">0</span></p>
+          <p>Tỉ lệ: <span id="tyle10">0%</span></p>
+          <p>Số lá còn lại: <span id="conlai10">31</span></p>
+          <button class="btn btn-primary" onclick="bocBai('10')">
+            Bóc Bài
+          </button>
+          <!-- Nút reset cho quân bài -->
+          <span class="my-2" id="resetButton10" style="display: none">
+            <button class="btn btn-warning" onclick="resetLaBai('10')">
+              Reset lá bài 10
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
