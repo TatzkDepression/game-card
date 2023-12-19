@@ -12,7 +12,6 @@
   </head>
   <body>
     <div class="container">
-      <h1>Game card</h1>
       <h2>Số lá còn lại: <span id="tongSoBai" value="406"></span></h2>
       <button id="resetButton" class="d-block px-5 py-2 border-danger">
         RESET
@@ -20,95 +19,93 @@
 
       <div class="row">
         <!-- Card A -->
-        <div class="col-2 card" id="card1">
-          <h3 class="display-4 text-bold text-center">1</h3>
-          <p>Lượt bốc: <span id="dem1">0</span></p>
-          <p>Số lá còn lại: <span id="conlai1">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card1">
+          <h3 class="display-4 text-bold">1</h3>
+          <p>Bốc: <span id="dem1">0</span></p>
+          <p>Còn: <span id="conlai1">31</span></p>
           <p>Tỉ lệ: <span id="tyle1">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('1')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('1')">Bốc</button>
         </div>
 
         <!-- Card 2 -->
-        <div class="col-2 card" id="card2">
-          <h3 class="display-4 text-bold text-danger text-center">2</h3>
-          <p>Lượt bốc: <span id="dem2">0</span></p>
-          <p>Số lá còn lại: <span id="conlai2">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card2">
+          <h3 class="display-4 text-bold text-danger">2</h3>
+          <p>Bốc: <span id="dem2">0</span></p>
+          <p>Còn: <span id="conlai2">31</span></p>
           <p>Tỉ lệ: <span id="tyle2">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('2')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('2')">Bốc</button>
         </div>
 
         <!-- Card 3 -->
-        <div class="col-2 card" id="card3">
-          <h3 class="display-4 text-bold text-center">3</h3>
-          <p>Lượt bốc: <span id="dem3">0</span></p>
-          <p>Số lá còn lại: <span id="conlai3">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card3">
+          <h3 class="display-4 text-bold">3</h3>
+          <p>Bốc: <span id="dem3">0</span></p>
+          <p>Còn: <span id="conlai3">31</span></p>
           <p>Tỉ lệ: <span id="tyle3">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('3')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('3')">Bốc</button>
         </div>
 
         <!-- Card 4 -->
-        <div class="col-2 card" id="card4">
-          <h3 class="display-4 text-bold text-danger text-center">4</h3>
-          <p>Lượt bốc: <span id="dem4">0</span></p>
-          <p>Số lá còn lại: <span id="conlai4">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card4">
+          <h3 class="display-4 text-bold text-danger">4</h3>
+          <p>Bốc: <span id="dem4">0</span></p>
+          <p>Còn: <span id="conlai4">31</span></p>
           <p>Tỉ lệ: <span id="tyle4">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('4')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('4')">Bốc</button>
         </div>
 
         <!-- Card 5 -->
-        <div class="col-2 card" id="card5">
-          <h3 class="display-4 text-bold text-center">5</h3>
-          <p>Lượt bốc: <span id="dem5">0</span></p>
-          <p>Số lá còn lại: <span id="conlai5">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card5">
+          <h3 class="display-4 text-bold">5</h3>
+          <p>Bốc: <span id="dem5">0</span></p>
+          <p>Còn: <span id="conlai5">31</span></p>
           <p>Tỉ lệ: <span id="tyle5">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('5')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('5')">Bốc</button>
         </div>
 
         <!-- Card 6 -->
-        <div class="col-2 card" id="card6">
-          <h3 class="display-4 text-bold text-danger text-center">6</h3>
-          <p>Lượt bốc: <span id="dem6">0</span></p>
-          <p>Số lá còn lại: <span id="conlai6">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card6">
+          <h3 class="display-4 text-bold text-danger">6</h3>
+          <p>Bốc: <span id="dem6">0</span></p>
+          <p>Còn: <span id="conlai6">31</span></p>
           <p>Tỉ lệ: <span id="tyle6">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('6')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('6')">Bốc</button>
         </div>
 
         <!-- Card 7 -->
-        <div class="col-2 card" id="card7">
-          <h3 class="display-4 text-bold text-center">7</h3>
-          <p>Lượt bốc: <span id="dem7">0</span></p>
-          <p>Số lá còn lại: <span id="conlai7">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card7">
+          <h3 class="display-4 text-bold">7</h3>
+          <p>Bốc: <span id="dem7">0</span></p>
+          <p>Còn: <span id="conlai7">31</span></p>
           <p>Tỉ lệ: <span id="tyle7">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('7')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('7')">Bốc</button>
         </div>
 
         <!-- Card 8 -->
-        <div class="col-2 card" id="card8">
-          <h3 class="display-4 text-bold text-danger text-center">8</h3>
-          <p>Lượt bốc: <span id="dem8">0</span></p>
-          <p>Số lá còn lại: <span id="conlai8">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card8">
+          <h3 class="display-4 text-bold text-danger">8</h3>
+          <p>Bốc: <span id="dem8">0</span></p>
+          <p>Còn: <span id="conlai8">31</span></p>
           <p>Tỉ lệ: <span id="tyle8">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('8')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('8')">Bốc</button>
         </div>
 
         <!-- Card 9 -->
-        <div class="col-2 card" id="card9">
-          <h3 class="display-4 text-bold text-center">9</h3>
-          <p>Lượt bốc: <span id="dem9">0</span></p>
-          <p>Số lá còn lại: <span id="conlai9">31</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card9">
+          <h3 class="display-4 text-bold">9</h3>
+          <p>Bốc: <span id="dem9">0</span></p>
+          <p>Còn: <span id="conlai9">31</span></p>
           <p>Tỉ lệ: <span id="tyle9">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('9')">Bốc Bài</button>
+          <button class="btn btn-primary" onclick="bocBai('9')">Bốc</button>
         </div>
 
         <!-- Card 10 -->
-        <div class="col-2 card" id="card10">
-          <h3 class="display-4 text-bold text-danger text-center">10</h3>
-          <p>Lượt bốc: <span id="dem10">0</span></p>
-          <p>Số lá còn lại: <span id="conlai10">127</span></p>
+        <div class="col-3 col-md-2 card text-center" id="card10">
+          <h3 class="display-4 text-bold text-danger">10</h3>
+          <p>Bốc: <span id="dem10">0</span></p>
+          <p>Còn: <span id="conlai10">127</span></p>
           <p>Tỉ lệ: <span id="tyle10">0%</span></p>
-          <button class="btn btn-primary" onclick="bocBai('10')">
-            Bốc Bài
-          </button>
+          <button class="btn btn-primary" onclick="bocBai('10')">Bốc</button>
         </div>
       </div>
     </div>
